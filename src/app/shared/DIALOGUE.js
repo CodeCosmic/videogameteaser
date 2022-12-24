@@ -7,7 +7,7 @@ export const DIALOGUE = [
                    open one eye to look around but see no one. The second you open both eyes you begin
                    to questioning your current location. 
                    "Why are my walls damaged?" You say confused.`,
-                   //Stand up
+                   //stand up
     },
     {
         id: 1,
@@ -27,7 +27,7 @@ export const DIALOGUE = [
                     //Check the door
     },
     {
-        id: 3,
+        id: 2,
         choiceName: 'Look out the window',
         dialogue: `You hear the crunching of debris under your feet as you walk up to the window. You pull
                    the blinds apart and see that it's actually not sunlight coming through the window. In 
@@ -43,8 +43,8 @@ export const DIALOGUE = [
                    //Go check the door
     },
     {
-        id: 4,
-        choiceName: 'Check the door',
+        id: 3,
+        choiceName: 'You check the door',
         dialogue: `The door's paint is heavily chipped and you can tell it's been abused. It's also
                    missing a doorknob. Luckily the rest of the doorknob mechanism was also missing so a
                    simple pull would open it. Pulling the door open reveals a hallway. You peek out into the 
@@ -55,7 +55,7 @@ export const DIALOGUE = [
                 //Peek right
     },
     {
-        id: 5,
+        id: 4,
         choiceName: 'Peek right',
         dialogue: `You turn right and see a wall. There are several picture frames hanging but none of 
                    them have pictures in them. The more you study the picture frames, the more they make 
@@ -67,7 +67,7 @@ export const DIALOGUE = [
                    //Peek Left
     },
     {
-        id: 6,
+        id: 5,
         choiceName: 'Peek Left',
         dialogue: `Feeling uneasy, you slowly turn left. You freeze when you see a tall person at 
                    the end of the hallway. You can't distinguish any features because all you see is the 
@@ -81,8 +81,8 @@ export const DIALOGUE = [
                    //GO!
     },
     {
-        id: 7,
-        choiceName: 'Go!',
+        id: 6,
+        choiceName: 'You pull back',
         dialogue: `You pull your head back right before you lose your sight completely. 
                    "What's going on!?" you think to yourself while trying to control your body from trembling. 
                    You try to remember how you got here but it feels like you can't access that part of your 
@@ -93,7 +93,7 @@ export const DIALOGUE = [
                    //Go out the door
     },
     {
-        id: 8,
+        id: 7,
         choiceName: 'Go out the door',
         dialogue: `You go back to the door and check if the silhouette is still there. 
         
@@ -110,6 +110,7 @@ export const DIALOGUE = [
                    the door is because you see that same red light shine through. The light dissapears afer
                    a few seconds. You've seen this happen before...
                    
+                   
                    Your heart starts punding faster and faster as that feeling of being watched returns. 
                    You need to make a decision, quick!
                    
@@ -118,7 +119,7 @@ export const DIALOGUE = [
                    //go to right door ID:12
     },
     {
-        id: 9,
+        id: 8,
         choiceName: 'Go to left door',
         dialogue: `You quickly run to the door on the left and struggle with the doorknob. The knob is 
                    seized and it's going to take some force to open it. 
@@ -141,7 +142,7 @@ export const DIALOGUE = [
                    //try the phone again
     },
     {
-        id: 10,
+        id: 9,
         choiceName: 'Hide under',
         dialogue: `Knowing this is a very risky decision, you quickly hide under the desk hoping that the 
                    silhouette doesn't see you. 
@@ -162,7 +163,7 @@ export const DIALOGUE = [
                    //go back to "Go to left door" ID: 9
     },
     {
-        id: 11,
+        id: 10,
         choiceName: 'Try the phone again',
         dialogue: `You grab the phone again and still... no matter how hard you try to look at the phone,
                    the screen continues to be blurry. The phone then vibrates again and vanishes from your 
@@ -177,7 +178,7 @@ export const DIALOGUE = [
                    //Go to wake up ID: 15
     },
     {
-        id: 12,
+        id: 11,
         choiceName: 'Go to right door',
         dialogue: `You undo the two latches on the door and push the door open. The door leads outside.
                    You shut the door behind you and look into the darkness. You can barely see three feet
@@ -197,7 +198,7 @@ export const DIALOGUE = [
                    //Run to the facility and hide
     },
     {
-        id: 13,
+        id: 12,
         choiceName: 'Run into the woods',
         dialogue: `You run towards the woods trying to avoid the light. You know the light will fade away
                    soon but you're not sure how long it will last. All you know is that you need to make 
@@ -217,7 +218,7 @@ export const DIALOGUE = [
                    //Go back to "Go to right door" ID: 12
     },
     {
-        id: 14,
+        id: 13,
         choiceName: 'Run to the facility and hide',
         dialogue: `The facility has no doors but you have no time. You run inside and look at your arms.
                    The holes are closing up. As you look down at your arms you notice that the floor is
@@ -242,7 +243,7 @@ export const DIALOGUE = [
                    //Go to wake up
     },
     {
-        id: 15,
+        id: 14,
         choiceName: 'Wake up',
         dialogue: `You wake up paralized. Your eyes are the only thing you have control of. You look around
                    and recognize everyting around you.
@@ -263,6 +264,11 @@ export const DIALOGUE = [
                    
                    As you walk out of your room you notice a hat on the floor in the hallway...`
                    //GG
+    },
+    {
+        id: 15,
+        choiceName: 'You pick up the hat',
+        dialogue: `You pick up the hat and look inside.
+                   There is a note inside BBYTX-805762770836`
     }
 ];
-

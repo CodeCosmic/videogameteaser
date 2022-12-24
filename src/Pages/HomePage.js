@@ -1,12 +1,12 @@
 import { Container } from "reactstrap";
-import ButtonChoices from "../components/ButtonChoices";
+import AdventureGame from "../components/TheLostMind";
 
 
 const HomePage = () => {
     return( 
         <Container>
             maybe SubHeader
-            <ButtonChoices />
+            <AdventureGame />
         </Container>
     );
 };
