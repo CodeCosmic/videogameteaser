@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
+        <footer className='site-footer'>
             <Container>
                 <Row>
                     <Col xs={{ size: 4, offset: 1 }} sm='2'>
@@ -57,6 +58,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
+        </footer>
     )
 }
 
