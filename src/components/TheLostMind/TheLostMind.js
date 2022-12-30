@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {DIALOGUE} from "../../app/shared/DIALOGUE";
+import './TheLostMind.css'
 
 
 function TheLostMind() {
