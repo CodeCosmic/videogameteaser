@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {DIALOGUE} from "../app/shared/DIALOGUE";
+import {DIALOGUE} from "../../app/shared/DIALOGUE";
 
 
 function TheLostMind() {
@@ -13,7 +13,9 @@ function TheLostMind() {
     return (
       <div>
         <h1>The Lost Mind</h1>
-        <p>{DIALOGUE[0].dialogue}</p>
+        <p> The very uncomfortable feeling of someone watching you suddendly wakes you up. You 
+            open one eye to look around but see no one. The second you open both eyes you begin
+            to questioning your current location \n Why are my walls damaged? You say confused</p>
         <button onClick={() => handleOptionClick('standUp')}>Stand up</button>
       </div>
     );

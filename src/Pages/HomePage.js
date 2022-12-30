@@ -1,14 +1,13 @@
-import { Container } from "reactstrap";
-import AdventureGame from "../components/TheLostMind";
+import TheLostMind from "../components/TheLostMind/TheLostMind";
 
 
 const HomePage = () => {
     return( 
-                    //backgroundImage:
-        <Container style={{height:"300px", width: "50%", backgroundColor: 'red'}}>
-            maybe SubHeader
-            <AdventureGame />
-        </Container>
+        <>
+            <div style={{ margin: 'auto', width: '50%', backgroundColor: 'black', color: 'white', opacity: '0.8'}}>
+                <TheLostMind />
+            </div>
+        </>
     );
 };
 
