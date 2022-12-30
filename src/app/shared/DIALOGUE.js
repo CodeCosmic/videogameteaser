@@ -3,18 +3,16 @@ export const DIALOGUE = [
     {
         id: 0,
         choiceName: 'Start Game',
-        dialogue: `The very uncomfortable feeling of someone watching you suddendly wakes you up. You
-                   open one eye to look around but see no one. The second you open both eyes you begin
-                   to questioning your current location. 
-                   "Why are my walls damaged?" You say confused.`,
+        dialogue: "The very uncomfortable feeling of someone watching you suddendly wakes you up. You open one eye to look around but see no one. The second you open both eyes you begin to questioning your current location \n Why are my walls damaged? You say confused",
                    //stand up
+                   //+ with ``
     },
     {
         id: 1,
         choiceName: 'Stand Up',
         dialogue: `As you get up, you realize that the bed you're in is covered in dust. You take a closer 
                    look and realize that you don't recognize this room. 
-                
+
                     You've never been here before... 
                     
                     You spot a red ray of light shining through a tiny window. You come to the conclusion that
