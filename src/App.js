@@ -11,14 +11,16 @@ import CountdownTimer from './components/CountdownTimer/CountdownTimer'
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor: 'gray' }}>
-      <Header/>
-      <CountdownTimer countdownTimeStampMS={1676000000000}/>
-      <Routes>
-        <Route path='/' element={<HomePage />} />
-      </Routes>
+    <>
+      <Header />
+        <div className="App">
+          <CountdownTimer countdownTimeStampMS={1676000000000}/>
+          <Routes>
+            <Route path='/' element={<HomePage />} />
+          </Routes>
+        </div>
       <Footer/>
-    </div>
+    </>
   );
 }
 

@@ -12,17 +12,15 @@ function TheLostMind() {
 
   if (currentScene === 'start') {
     return (
-      <div>
+      <div className="textView">
         <h1>The Lost Mind</h1>
-        <p> The very uncomfortable feeling of someone watching you suddendly wakes you up. You 
-            open one eye to look around but see no one. The second you open both eyes you begin
-            to questioning your current location \n Why are my walls damaged? You say confused</p>
-        <button onClick={() => handleOptionClick('standUp')}>Stand up</button>
+        <p>{DIALOGUE[0].dialogue}</p>
+        <button className="gameButton" onClick={() => handleOptionClick('standUp')}>Stand up</button>
       </div>
     );
   } else if (currentScene === 'standUp') {
     return (
-      <div>
+      <div className="textView">
         <h1>{DIALOGUE[1].choiceName}</h1>
         <p>{DIALOGUE[1].dialogue}</p>
         <button onClick={() => handleOptionClick('lookOutTheWindow')}>Look out the window</button>
@@ -31,7 +29,7 @@ function TheLostMind() {
     );
   } else if (currentScene === 'lookOutTheWindow') {
     return (
-      <div>
+      <div className="textView">
         <h1>{DIALOGUE[2].choiceName}</h1>
         <p>{DIALOGUE[2].dialogue}</p>
         <button onClick={() => handleOptionClick('checkTheDoor')}>Go check the door</button>
@@ -39,7 +37,7 @@ function TheLostMind() {
     );
   } else if (currentScene === 'checkTheDoor') {
     return (
-      <div>
+      <div className="textView">
         <h1>{DIALOGUE[3].choiceName}</h1>
         <p>{DIALOGUE[3].dialogue}</p>
         <button onClick={() => handleOptionClick('peekLeft')}>Peek left</button>
@@ -48,7 +46,7 @@ function TheLostMind() {
     );
   } else if (currentScene === 'peekRight') {
     return (
-      <div>
+      <div className="textView">
         <h1>{DIALOGUE[4].choiceName}</h1>
         <p>{DIALOGUE[4].dialogue}</p>
         <button onClick={() => handleOptionClick('peekLeft')}>Peek left</button>
@@ -56,7 +54,7 @@ function TheLostMind() {
     );
   } else if (currentScene === 'peekLeft') {
     return (
-      <div>
+      <div className="textView">
         <h1>{DIALOGUE[5].choiceName}</h1>
         <p>{DIALOGUE[5].dialogue}</p>
         <button onClick={() => handleOptionClick('go')}>GO!</button>
@@ -64,7 +62,7 @@ function TheLostMind() {
     );
   } else if (currentScene === 'go') {
     return (
-      <div>
+      <div className="textView">
         <h1>{DIALOGUE[6].choiceName}</h1>
         <p>{DIALOGUE[6].dialogue}</p>
         <button onClick={() => handleOptionClick('goOutTheDoor')}>Go out the door</button>
@@ -72,7 +70,7 @@ function TheLostMind() {
     );
   } else if (currentScene === 'goOutTheDoor') {
     return (
-      <div>
+      <div className="textView">
       <h1>{DIALOGUE[7].choiceName}</h1>
       <p>{DIALOGUE[7].dialogue}</p>
       <button onClick={() => handleOptionClick('takeLeftDoor')}>Take the left door</button>
@@ -81,7 +79,7 @@ function TheLostMind() {
       )
   } else if (currentScene === 'takeLeftDoor') {
     return (
-      <div>
+      <div className="textView">
       <h1>{DIALOGUE[8].choiceName}</h1>
       <p>{DIALOGUE[8].dialogue}</p>
       <button onClick={() => handleOptionClick('hideUnderDesk')}>Hide under Desk</button>
@@ -90,7 +88,7 @@ function TheLostMind() {
       )
   } else if (currentScene === 'hideUnderDesk') {
     return (
-      <div>
+      <div className="textDead">
       <h1>{DIALOGUE[9].choiceName}</h1>
       <p>{DIALOGUE[9].dialogue}</p>
       <button onClick={() => handleOptionClick('start')}>Start over</button>
@@ -98,7 +96,7 @@ function TheLostMind() {
       )
   } else if (currentScene === 'tryPhoneAgain') {
     return (
-      <div>
+      <div className="textView">
       <h1>{DIALOGUE[10].choiceName}</h1>
       <p>{DIALOGUE[10].dialogue}</p>
       <button onClick={() => handleOptionClick('wakeUp')}>Jump through the wall</button>
@@ -106,7 +104,7 @@ function TheLostMind() {
       )
   } else if (currentScene === 'takeRightDoor') {
     return (
-      <div>
+      <div className="textView">
       <h1>{DIALOGUE[11].choiceName}</h1>
       <p>{DIALOGUE[11].dialogue}</p>
       <button onClick={() => handleOptionClick('runToWoods')}>Run into the woods</button>
@@ -115,7 +113,7 @@ function TheLostMind() {
       )
   } else if (currentScene === 'runToWoods') {
     return (
-      <div>
+      <div className="textDead">
       <h1>{DIALOGUE[12].choiceName}</h1>
       <p>{DIALOGUE[12].dialogue}</p>
       <button onClick={() => handleOptionClick('start')}>Start over</button>
@@ -123,7 +121,7 @@ function TheLostMind() {
       )
   } else if (currentScene === 'runToFacility') {
     return (
-      <div>
+      <div className="textView">
       <h1>{DIALOGUE[13].choiceName}</h1>
       <p>{DIALOGUE[13].dialogue}</p>
       <button onClick={() => handleOptionClick('wakeUp')}>Let go...</button>
@@ -131,25 +129,17 @@ function TheLostMind() {
       )
   } else if (currentScene === 'wakeUp') {
     return (
-      <div>
+      <div className="textView">
       <h1>{DIALOGUE[14].choiceName}</h1>
       <p>{DIALOGUE[14].dialogue}</p>
       <button onClick={() => handleOptionClick('pickUpHat')}>Pick up the hat</button>
       </div>
       )
-  } else if (currentScene === 'wakeUp') {
-    return (
-      <div>
-      <h1>{DIALOGUE[15].choiceName}</h1>
-      <p>{DIALOGUE[15].dialogue}</p>
-      <button onClick={() => handleOptionClick('pickUpHat')}>Pick up the hat</button>
-      </div>
-      )
   } else if (currentScene === 'pickUpHat') {
     return (
-      <div>
-      <h1>{DIALOGUE[15].choiceName}</h1>
-      <p>{DIALOGUE[15].dialogue}</p>
+      <div className="bigWin">
+        <h1>{DIALOGUE[15].choiceName}</h1>
+        <p>{DIALOGUE[15].dialogue}</p>
       </div>
       )
     }

@@ -3,9 +3,8 @@ export const DIALOGUE = [
     {
         id: 0,
         choiceName: 'Start Game',
-        dialogue: `The very uncomfortable feeling of someone watching you suddendly wakes you up. You 
-                   open one eye to look around but see no one. The second you open both eyes you begin
-                   to questioning your current location \n Why are my walls damaged? You say confused`
+        dialogue: `The very uncomfortable feeling of someone watching you suddendly wakes you up. You RETURN 
+        open one eye to look around but see no one. The second you open both eyes you begin RETURN to questioning your current location. Why are my walls damaged? You say confused`
                    //stand up
                    //+ with ``
     },

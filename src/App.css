@@ -1,16 +1,12 @@
-/* .App {
-  text-align: center;
-} */
-
-.App-link {
-  color: rgb(112, 76, 182);
+.App {
+  background-color: black;
+  padding: 10px;
 }
 
 .navbar-dark {
   text-align: center;
   background-color: #1b1b1b;
   background-image: radial-gradient(#1b1b1b, #000000);
-  margin-bottom: 2rem;
   min-height: 8rem;
 }
 
@@ -26,6 +22,13 @@
   text-align: center;
   background-image: radial-gradient(#1b1b1b, #000000);
   padding: 20px 0;
-  margin-top: 2rem;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
 }
+
+.bigLine { 
+  border: 1px solid white;
+ }
 

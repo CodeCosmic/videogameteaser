@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <footer className='site-footer'>
+             <hr dark className='bigLine'/>
             <Container>
                 <Row>
                     <Col xs={{ size: 4, offset: 1 }} sm='2'>
