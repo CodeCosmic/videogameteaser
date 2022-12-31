@@ -1,20 +1,21 @@
 import { Row, Col, Container } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
+
 const Footer = () => {
     return (
         <footer className='site-footer'>
-             <hr dark className='bigLine'/>
+             <hr className='bigLine'/>
             <Container>
                 <Row>
                     <Col xs={{ size: 4, offset: 1 }} sm='2'>
-                        <h5>Links</h5>
+                        <h1>Links</h1>
                         <>
                             <Link to='/contact'>Contact</Link>
                         </>
                     </Col>
-                    <Col xs='6' sm='3' className='text-center'>
-                    <h5>Social</h5>
+                    {/* <Col xs='6' sm='3' className='text-center'>
+                        <h5>Social</h5>
                         <a
                             className='btn btn-social-icon btn-instagram'
                             href='http://instagram.com/'
@@ -41,7 +42,7 @@ const Footer = () => {
                         </a>
                     </Col>
                     <Col sm='4' className='text-center'>
-                    <a
+                        <a
                             role='button'
                             className='btn btn-link'
                             href='tel:+13211231234'
@@ -56,11 +57,11 @@ const Footer = () => {
                         >
                             <i className='fa fa-envelope-o' /> thelostmind@dream.co
                         </a>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </footer>
-    )
-}
+    );
+};
 
 export default Footer;

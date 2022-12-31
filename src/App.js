@@ -4,23 +4,24 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
+import ContactPage from './pages/ContactPage';
 import CountdownTimer from './components/CountdownTimer/CountdownTimer'
+
 
 
 
 
 function App() {
   return (
-    <>
-      <Header />
-        <div className="App">
-          <CountdownTimer countdownTimeStampMS={1676000000000}/>
-          <Routes>
-            <Route path='/' element={<HomePage />} />
-          </Routes>
-        </div>
+    <div className="App" >
+      <Header/>
+      <CountdownTimer countdownTimeStampMS={1676000000000}/>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='contact' element={<ContactPage />} />
+      </Routes>
       <Footer/>
-    </>
+    </div>
   );
 }
 

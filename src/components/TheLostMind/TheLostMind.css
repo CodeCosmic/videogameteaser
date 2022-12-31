@@ -1,11 +1,12 @@
 .textView {
     text-align: center;
     color: white;
-    width: 400px;
-    margin:auto;
+    width: 600px;
+    margin: auto;
     border: 2px solid white;
     justify-items: center;
     align-items: center;
+    padding: 5%;
 }
 
 .textView button {
@@ -18,10 +19,21 @@
 .bigWin {
     text-align: center;
     color: green;
+    width: 600px;
+    margin: auto;
+    border: 2px solid green;
+    justify-items: center;
+    align-items: center;
 }
 
 .textDead {
+    text-align: center;
     color: red;
+    width: 600px;
+    margin: auto;
+    border: 2px solid white;
+    justify-items: center;
+    align-items: center;
 }
 
 /* width: 600;

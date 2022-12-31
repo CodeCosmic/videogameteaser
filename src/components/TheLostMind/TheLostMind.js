@@ -12,7 +12,7 @@ function TheLostMind() {
 
   if (currentScene === 'start') {
     return (
-      <div className="textView">
+      <div className="textView" >
         <h1>The Lost Mind</h1>
         <p>{DIALOGUE[0].dialogue}</p>
         <button className="gameButton" onClick={() => handleOptionClick('standUp')}>Stand up</button>

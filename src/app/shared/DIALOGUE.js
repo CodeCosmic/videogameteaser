@@ -142,7 +142,7 @@ export const DIALOGUE = [
     },
     {
         id: 9,
-        choiceName: 'Hide under',
+        choiceName: 'Hide under desk',
         dialogue: `Knowing this is a very risky decision, you quickly hide under the desk hoping that the 
                    silhouette doesn't see you. 
                    
@@ -268,6 +268,6 @@ export const DIALOGUE = [
         id: 15,
         choiceName: 'You pick up the hat',
         dialogue: `You pick up the hat and look inside.
-                   There is a note inside BBYTX-805762770836`
+                   There is a note inside BBYTX-805762770836 Send this number to us through our contact link for a free demo`
     }
 ];
