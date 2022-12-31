@@ -8,12 +8,14 @@ const Footer = () => {
                 <Row>
                     <Col xs={{ size: 4, offset: 1 }} sm='2'>
                         <h5>Links</h5>
-                        <>
-                            <Link to='/contact'>Contact</Link>
-                        </>
+                        <ul>
+                            <li>
+                                <Link to='/contact'>Contact</Link>
+                            </li>
+                        </ul>
                     </Col>
                     <Col xs='6' sm='3' className='text-center'>
-                    <h5>Social</h5>
+                        <h5>Social</h5>
                         <a
                             className='btn btn-social-icon btn-instagram'
                             href='http://instagram.com/'
@@ -40,7 +42,7 @@ const Footer = () => {
                         </a>
                     </Col>
                     <Col sm='4' className='text-center'>
-                    <a
+                        <a
                             role='button'
                             className='btn btn-link'
                             href='tel:+13211231234'
@@ -59,7 +61,7 @@ const Footer = () => {
                 </Row>
             </Container>
         </footer>
-    )
-}
+    );
+};
 
 export default Footer;
