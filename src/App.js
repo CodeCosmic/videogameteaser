@@ -14,7 +14,7 @@ import CountdownTimer from './components/CountdownTimer/CountdownTimer'
 function App() {
   return (
     <div className="App" >
-      <Header/>
+      <Header />
       <CountdownTimer countdownTimeStampMS={1676000000000}/>
       <Routes>
         <Route path='/' element={<HomePage />} />

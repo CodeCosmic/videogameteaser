@@ -5,9 +5,7 @@ import LoreCard from "../features/Cards/LoreCard";
 const HomePage = () => {
     return( 
         <>
-            <div style={{padding: '4%'}}
-            //  style={{ backgroundColor: 'black', opacity: '0.8'}}
-             >
+            <div style={{padding: '4%'}}>
                 <TheLostMind />
                 <br/>
                 <LoreCard />

@@ -4,7 +4,7 @@ import HatMan from '../app/assets/img/hatMan.png'
 
 const Header = () => {
     return (
-        <Navbar dark sticky='top'>
+        <Navbar dark sticky='top' >
             <NavbarBrand>
                 <img src={HatMan} alt='hatMan' />
             </NavbarBrand>

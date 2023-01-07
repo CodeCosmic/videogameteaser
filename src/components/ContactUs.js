@@ -72,7 +72,7 @@ const ContactUs = () => {
                         </ErrorMessage>
                     </Col>                                    
                 </FormGroup>
-                <FormGroup row>
+                {/* <FormGroup row>
                     <Label htmlFor='password' md='2'>
                         Password
                     </Label> 
@@ -87,7 +87,7 @@ const ContactUs = () => {
                             {(msg) => <p className='text-danger'>{msg}</p>}
                         </ErrorMessage>
                     </Col>                                   
-                </FormGroup>
+                </FormGroup> */}
                 <FormGroup row>
                     <Label htmlFor='feedback' md='2'>
                         Your Feedback

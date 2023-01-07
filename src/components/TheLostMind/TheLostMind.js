@@ -25,7 +25,7 @@ function TheLostMind() {
       <div className="textView">
         <h1>{DIALOGUE[1].choiceName}</h1>
         <p>{DIALOGUE[1].dialogue}</p>
-        <button onClick={() => handleOptionClick('lookOutTheWindow')}>Look out the window</button>
+        <button className='btn1' onClick={() => handleOptionClick('lookOutTheWindow')}>Look out the window</button>
         <button onClick={() => handleOptionClick('checkTheDoor')}>Check the door</button>
       </div>
     );
@@ -42,7 +42,7 @@ function TheLostMind() {
       <div className="textView">
         <h1>{DIALOGUE[3].choiceName}</h1>
         <p>{DIALOGUE[3].dialogue}</p>
-        <button onClick={() => handleOptionClick('peekLeft')}>Peek left</button>
+        <button className='btn1' onClick={() => handleOptionClick('peekLeft')}>Peek left</button>
         <button onClick={() => handleOptionClick('peekRight')}>Peek right</button>
       </div>
     );
@@ -75,7 +75,7 @@ function TheLostMind() {
       <div className="textView">
       <h1>{DIALOGUE[7].choiceName}</h1>
       <p>{DIALOGUE[7].dialogue}</p>
-      <button onClick={() => handleOptionClick('takeLeftDoor')}>Take the left door</button>
+      <button className='btn1' onClick={() => handleOptionClick('takeLeftDoor')}>Take the left door</button>
       <button onClick={() => handleOptionClick('takeRightDoor')}>Take the right door</button>
       </div>
       )
@@ -84,7 +84,7 @@ function TheLostMind() {
       <div className="textView">
       <h1>{DIALOGUE[8].choiceName}</h1>
       <p>{DIALOGUE[8].dialogue}</p>
-      <button onClick={() => handleOptionClick('hideUnderDesk')}>Hide under Desk</button>
+      <button className='btn1' onClick={() => handleOptionClick('hideUnderDesk')}>Hide under Desk</button>
       <button onclick={() => handleOptionClick('tryPhoneAgain')}>Try the phone again</button>
       </div>
       )
@@ -109,7 +109,7 @@ function TheLostMind() {
       <div className="textView">
       <h1>{DIALOGUE[11].choiceName}</h1>
       <p>{DIALOGUE[11].dialogue}</p>
-      <button onClick={() => handleOptionClick('runToWoods')}>Run into the woods</button>
+      <button className='btn1' onClick={() => handleOptionClick('runToWoods')}>Run into the woods</button>
       <button onClick={() => handleOptionClick('runToFacility')}>Run to the facility and hide</button>
       </div>
       )

@@ -3,17 +3,20 @@
     font-size: 35px;
     text-align: center;
     border: 2px solid white;
-    width: 500px;
-    margin: auto;
+    width: auto;
+    margin: 5%;
 }
 
 .cardText {
     color: white;
     text-align: center;
+    margin: 5%;
+    
 }
 
 .bikBox {
     background: rgb(46, 46, 46);
-    width: 700px;
     margin: auto;
+    width: auto;
+    max-width: 700px;
 }

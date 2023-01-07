@@ -15,7 +15,7 @@ const ContactPage = () => {
                     <ContactUs />
                 </Col>
                 <Col md='10'>
-                    <h2>Back to Game</h2>
+                    <p>Back to Game</p>
                     <div>
                         <Link to='/'>
                             <button className="contactButton">Game</button>
