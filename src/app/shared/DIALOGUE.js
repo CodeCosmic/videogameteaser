@@ -3,8 +3,7 @@ export const DIALOGUE = [
     {
         id: 0,
         choiceName: 'Start Game',
-        dialogue: `The very uncomfortable feeling of someone watching you suddendly wakes you up. You RETURN 
-        open one eye to look around but see no one. The second you open both eyes you begin RETURN to questioning your current location. Why are my walls damaged? You say confused`
+        dialogue: `The very uncomfortable feeling of someone watching you suddendly wakes you up. You \n open one eye to look around but see no one. The second you open both eyes you begin \n to questioning your current location. \n \n "Why are my walls damaged?" You say confused`
                    //stand up
                    //+ with ``
     },
@@ -268,6 +267,10 @@ export const DIALOGUE = [
         id: 15,
         choiceName: 'You pick up the hat',
         dialogue: `You pick up the hat and look inside.
-                   There is a note inside BBYTX-805762770836 Send this number to us through our contact link for a free demo`
+                   There is a note inside
+
+                   BBYTX-805762770836
+                   
+                   Send this number to us through our contact link for a free demo`
     }
 ];

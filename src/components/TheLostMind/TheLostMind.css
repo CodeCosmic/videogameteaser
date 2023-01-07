@@ -1,12 +1,17 @@
 .textView {
     text-align: center;
     color: white;
-    width: 600px;
+    width: 650px;
     margin: auto;
     border: 2px solid white;
     justify-items: center;
     align-items: center;
     padding: 5%;
+    /*white-space:pre-line allows \n to become <br> when pulled 
+    the way I'm pulling the <p> in TheLostMind.js. It seems like 
+    it also allowst template literal to show up the way it's typed.
+    Without it */
+    white-space: pre-line;
 }
 
 .textView button {
@@ -24,6 +29,7 @@
     border: 2px solid green;
     justify-items: center;
     align-items: center;
+    white-space: pre-line;
 }
 
 .textDead {
@@ -34,6 +40,7 @@
     border: 2px solid white;
     justify-items: center;
     align-items: center;
+    white-Space: pre-line;
 }
 
 /* width: 600;
@@ -47,3 +54,4 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size: 30px; */
+

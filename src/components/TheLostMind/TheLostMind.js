@@ -9,6 +9,7 @@ function TheLostMind() {
   function handleOptionClick(option) {
     setCurrentScene(option);
   }
+  
 
   if (currentScene === 'start') {
     return (
@@ -17,6 +18,7 @@ function TheLostMind() {
         <p>{DIALOGUE[0].dialogue}</p>
         <button className="gameButton" onClick={() => handleOptionClick('standUp')}>Stand up</button>
       </div>
+      
     );
   } else if (currentScene === 'standUp') {
     return (
@@ -138,8 +140,8 @@ function TheLostMind() {
   } else if (currentScene === 'pickUpHat') {
     return (
       <div className="bigWin">
-        <h1>{DIALOGUE[15].choiceName}</h1>
-        <p>{DIALOGUE[15].dialogue}</p>
+      <h1>{DIALOGUE[15].choiceName}</h1>
+      <p>{DIALOGUE[15].dialogue}</p>
       </div>
       )
     }
