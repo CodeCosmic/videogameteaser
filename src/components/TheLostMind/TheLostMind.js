@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {DIALOGUE} from "../../app/shared/DIALOGUE";
 import './TheLostMind.css'
+import { Link } from "react-router-dom";
 
 
 function TheLostMind() {
@@ -142,6 +143,7 @@ function TheLostMind() {
       <div className="bigWin">
       <h1>{DIALOGUE[15].choiceName}</h1>
       <p>{DIALOGUE[15].dialogue}</p>
+      <Link to='/contact'><button className='btn1'>Contact</button></Link>
       </div>
       )
     }
