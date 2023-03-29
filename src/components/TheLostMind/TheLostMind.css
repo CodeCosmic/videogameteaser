@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .textView {
     text-align: center;
     color: white;
@@ -47,3 +48,87 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size: 30px; */
+=======
+.textView {
+    text-align: center;
+    color: white;
+    width: auto;
+    margin: auto;
+    border: 2px solid white;
+    justify-items: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /*white-space:pre-line allows \n to become <br> when pulled 
+    the way I'm pulling the <p> in TheLostMind.js. It seems like 
+    it also allowst template literal to show up the way it's typed.
+    Without it */
+    white-space: pre-line;
+    max-width: 700px;
+}
+
+.textView button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+.textDead button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+.bigWin button {
+    background-color: transparent;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10%;
+}
+
+.bigWin {
+    text-align: center;
+    color: green;
+    width: auto;
+    margin: auto;
+    border: 2px solid green;
+    justify-items: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    white-space: pre-line;
+    max-width: 700px;
+}
+
+.textDead {
+    text-align: center;
+    color: red;
+    width: auto;
+    margin: auto;
+    border: 2px solid white;
+    justify-items: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    white-Space: pre-line;
+    max-width: 700px;
+}
+
+.btn1{
+    margin-right: 10px;
+}
+/* width: 600;
+height: 100;
+border: 2px solid black;
+
+font-family: "Pixel";
+background-color: rgba(0, 0, 0, 0.5);
+
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px; */
+
+>>>>>>> main
