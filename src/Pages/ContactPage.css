@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+.row-content {
+    /* text-align: center;
+    color: white; */
+    text-align: center;
+    color: white;
+    width: 500px;
+    margin:auto;
+    border: 2px solid white;
+    justify-items: center;
+    align-items: center;
+}
+
+.contactButton {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+=======
 .row-content {
     /* text-align: center;
     color: white; */
@@ -17,4 +36,5 @@
     border: 2px solid white;
     border-radius: 10%;
     margin-bottom: 10px;
+>>>>>>> main
 }
