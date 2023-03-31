@@ -1,0 +1,30 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.paragraph{
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 10px;
+}
+.cardStyle {
+    color: white;
+    width: 500px;
+    height: 200;
+    margin-top: 20;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.buttons{
+    color: white;
+    background-color: #000;
+    border-color: white;
+    border-width: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 150px;
+}
