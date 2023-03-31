@@ -1,14 +1,11 @@
-import TheLostMind from "../components/TheLostMind/TheLostMind";
-import LoreCard from "../features/Cards/LoreCard";
-
+import LoreCard from '../components/LoreCard/LoreCard'
+import TheGameButBetter from "../components/TheGameButBetter/TheGameButBetter";
 
 const HomePage = () => {
-    return( 
+    return(
         <>
-            <div style={{padding: '4%'}}
-            //  style={{ backgroundColor: 'black', opacity: '0.8'}}
-             >
-                <TheLostMind />
+            <div style={{padding: '20px'}}>
+                <TheGameButBetter/>
                 <br/>
                 <LoreCard />
             </div>

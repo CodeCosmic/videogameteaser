@@ -1,0 +1,22 @@
+.loreContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.loreCardStyle{
+    color: white;
+    width: 500px;
+    border: 2px solid white;
+}
+
+.cardBody{
+    text-align: justify;
+    margin: 10px;
+}
+
+.cardTitle {
+    text-align: center;
+    margin-top: 10px;
+}
+

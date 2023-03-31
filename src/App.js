@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App" >
       <Header/>
-      <CountdownTimer countdownTimeStampMS={1676000000000}/>
+      <CountdownTimer countdownTimeStampMS={1679000000000}/>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='contact' element={<ContactPage />} />

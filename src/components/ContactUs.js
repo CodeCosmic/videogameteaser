@@ -1,9 +1,8 @@
-
 import { Button, Label, Col, FormGroup } from "reactstrap";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 
 const ContactUs = () => {
-    
+
 
     const handleSubmit = (values, { resetForm }) => {
         console.log('form values:', values);
@@ -11,8 +10,8 @@ const ContactUs = () => {
         resetForm();
     }
 
-    return (  
-              
+    return (
+
         <Formik
             initialValues={{
                 firstName: '',
@@ -30,7 +29,7 @@ const ContactUs = () => {
                     <Label htmlFor='firstName' md='2'>
                         First Name
                     </Label>
-                    <Col md='10'>                                   
+                    <Col md='10'>
                         <Field
                             name='firstName'
                             placeholder='First Name'
@@ -38,8 +37,8 @@ const ContactUs = () => {
                         />
                         <ErrorMessage name='firstName'>
                             {(msg) => <p className='text-danger'>{msg}</p>}
-                        </ErrorMessage> 
-                    </Col>                                   
+                        </ErrorMessage>
+                    </Col>
                 </FormGroup>
                 <FormGroup row>
                     <Label htmlFor='lastName' md='2'>
@@ -53,14 +52,14 @@ const ContactUs = () => {
                         />
                         <ErrorMessage name='lastName'>
                             {(msg) => <p className='text-danger'>{msg}</p>}
-                        </ErrorMessage> 
-                    </Col>                                  
+                        </ErrorMessage>
+                    </Col>
                 </FormGroup>
                 <FormGroup row>
                     <Label htmlFor='email' md='2'>
                         Email
                     </Label>
-                    <Col md='10'>                                   
+                    <Col md='10'>
                         <Field
                             name='email'
                             placeholder='Email'
@@ -70,14 +69,14 @@ const ContactUs = () => {
                         <ErrorMessage name='email'>
                             {(msg) => <p className='text-danger'>{msg}</p>}
                         </ErrorMessage>
-                    </Col>                                    
+                    </Col>
                 </FormGroup>
                 <FormGroup row>
                     <Label htmlFor='password' md='2'>
                         Password
-                    </Label> 
-                    <Col md='10'>                                  
-                        <Field 
+                    </Label>
+                    <Col md='10'>
+                        <Field
                             name='password'
                             placeholder='Password'
                             type='password'
@@ -86,30 +85,30 @@ const ContactUs = () => {
                         <ErrorMessage name='password'>
                             {(msg) => <p className='text-danger'>{msg}</p>}
                         </ErrorMessage>
-                    </Col>                                   
+                    </Col>
                 </FormGroup>
                 <FormGroup row>
                     <Label htmlFor='feedback' md='2'>
                         Your Feedback
                     </Label>
-                    <Col md='10'>                                    
+                    <Col md='10'>
                         <Field
                             name='feedback'
                             as='textarea'
                             rows='12'
                             className='form-control'
-                        />  
-                    </Col>                                  
+                        />
+                    </Col>
                 </FormGroup>
                 <FormGroup row>
                     <Col>
                         <Button type='submit' className="contactButton">
                             Send Feedback
                         </Button>
-                    </Col>                                   
+                    </Col>
                 </FormGroup>
             </Form>
-        </Formik>                
+        </Formik>
     );
 };
 
