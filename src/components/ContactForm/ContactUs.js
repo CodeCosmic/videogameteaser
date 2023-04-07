@@ -9,7 +9,6 @@ const ContactUs = () => {
         console.log('in JSON format:', JSON.stringify(values));
         resetForm();
     }
-
     return (
 
         <Formik
@@ -17,8 +16,6 @@ const ContactUs = () => {
                 firstName: '',
                 lastName: '',
                 email: '',
-                password: '',
-                agree: false,
                 feedback: ''
             }}
             onSubmit={handleSubmit}
@@ -67,22 +64,6 @@ const ContactUs = () => {
                             className='form-control'
                         />
                         <ErrorMessage name='email'>
-                            {(msg) => <p className='text-danger'>{msg}</p>}
-                        </ErrorMessage>
-                    </Col>
-                </FormGroup>
-                <FormGroup row>
-                    <Label htmlFor='password' md='2'>
-                        Password
-                    </Label>
-                    <Col md='10'>
-                        <Field
-                            name='password'
-                            placeholder='Password'
-                            type='password'
-                            className='form-control'
-                        />
-                        <ErrorMessage name='password'>
                             {(msg) => <p className='text-danger'>{msg}</p>}
                         </ErrorMessage>
                     </Col>
