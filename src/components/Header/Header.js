@@ -1,5 +1,6 @@
 import { Navbar, NavbarBrand } from 'reactstrap';
-import HatMan from '../app/assets/img/hatMan.png'
+import HatMan from '../../app/assets/img/hatMan.png'
+import './header.css'
 
 const Header = () => {
     return (

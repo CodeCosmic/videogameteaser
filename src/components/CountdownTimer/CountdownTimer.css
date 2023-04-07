@@ -1,12 +1,10 @@
 .countdown-timer {
-    border: 2px solid white;
-    font-family: "Pixel";
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Pixel";
+    color: white;
     font-size: 35px;
-    width: 500px;
     margin:auto
 }
 

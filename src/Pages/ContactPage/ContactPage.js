@@ -1,5 +1,5 @@
 import { Container, Col, Row } from "reactstrap";
-import ContactUs from "../components/ContactUs";
+import ContactUs from "../../components/ContactForm/ContactUs";
 import { Link } from "react-router-dom";
 import './ContactPage.css'
 
@@ -15,10 +15,9 @@ const ContactPage = () => {
                     <ContactUs />
                 </Col>
                 <Col md='10'>
-                    <h2>Back to Game</h2>
                     <div>
                         <Link to='/'>
-                            <button className="contactButton">Game</button>
+                            <button className="backToGameButton">Back to Game</button>
                         </Link>
                     </div>
                 </Col>
