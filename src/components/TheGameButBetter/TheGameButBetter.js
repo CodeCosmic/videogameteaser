@@ -11,7 +11,11 @@ const TheGameButBetter = () => {
             <div className="cardContainer">
                 <Card className="cardStyle">
                     <p>{DIALOGUE[currentRoom].choiceName}</p>
-                    <p className="paragraph">{DIALOGUE[currentRoom].dialogue}</p>
+        {console.log(currentRoom)}
+        {currentRoom  === 9 || currentRoom === 12 ?
+            <p className="paragraph"><span className="redDialogue">{DIALOGUE[currentRoom].dialogue}</span></p>:
+            <p className="paragraph">{DIALOGUE[currentRoom].dialogue}</p>
+        }
                     {DIALOGUE[currentRoom].options.map((option) => {
                         return(
                         <Button

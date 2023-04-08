@@ -294,7 +294,7 @@ export const DIALOGUE = [
         id: 15,
         choiceName: 'Pick the hat up',
         dialogue: `You pick up the hat and look inside.
-        There is a note inside BBYTX-805762770836 Send this number to us through our contact link for a free demo`,
+        There is a note inside that says "The hat man is watching." Send this message to us through our contact link for a free demo`,
         options:[]
     }
 ];
