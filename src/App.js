@@ -3,8 +3,8 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import HomePage from './pages/HomePage';
-import ContactPage from './pages/ContactPage/ContactPage';
+import HomePage from './Pages/HomePage';
+import ContactPage from './Pages/ContactPage/ContactPage';
 import CountdownTimer from './components/CountdownTimer/CountdownTimer'
 
 
